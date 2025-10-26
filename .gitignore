@@ -1,0 +1,53 @@
+# C# source files
+*.cs
+*.cs.meta
+
+# Visual Studio solution and project files
+*.sln
+*.csproj
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Temp files
+*.tmp
+*.temp
+*~
+
+# Auto-generated files
+*Generated.cs
+*Generated.cs.meta
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Don't ignore application settings, but DO ignore the local development settings
+appsettings.Development.json
+
+# Ignorar o arquivo de configuração de produção
+appsettings.json
+/.vs
